@@ -2,6 +2,6 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-$(document).on "ready page:change", ->
+$(document).on "ready, page:change", ->
   $('.store .entry > img').click ->
     $(this).parent().find(':submit').click()
