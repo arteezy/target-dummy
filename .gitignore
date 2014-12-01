@@ -15,4 +15,6 @@
 /log/*.log
 /tmp
 
+/public/assets
+
 Gemfile.lock
