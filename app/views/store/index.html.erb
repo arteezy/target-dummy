@@ -8,7 +8,7 @@
   <% @products.each do |product| %>
     <% cache ['entry', product] do %>
       <div class="entry">
-        <%= image_tag(product.image_url) %>
+        <%= image_tag asset_path(product.image_url) %>
         <h3><%= product.title %></h3>
         <%= sanitize(product.description) %>
         <div class="price_line">
