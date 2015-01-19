@@ -15,6 +15,12 @@
 /log/*.log
 /tmp
 
+# DB & Skylight config
+/config/*.yml
+
+# Nginx
+/config/nginx.conf
+
 /public/assets
 
 Gemfile.lock
